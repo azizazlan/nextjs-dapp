@@ -16,9 +16,9 @@ The Next.js based frontend can interacts with the Greeter.sol, a sample smart co
 4. In Metamask, create a new network:
     1. New RPC Url = http://127.0.0.1:8545
     2. Chain ID = 31337l
-5. In Metamask, import account. Use the private key string of the first account (index 0).
+5. In Metamask, import account. Use the private key string of the first account (index 0). (Select this imported account, as it will be the owner of the smart contract)
 6. In a new terminal, deploy the smart contract `npx hardhat run scripts/deploy.ts`
 7. Configure `PRIVATE_KEY` and `CONTRACT_ADDR` in the env file (in the `client` directory). (you can get the private key of the first account when you started the local blockchain node and the smart contract address when the smart contract is deployed)
-8. In another new terminal, change into the `client` directory, and run: `npm run dev`
+8. In another new terminal, change into the `client` directory, and install: `npm install`. Then run: `npm run [dev](dev)`
 9. Open a new browsert tab or window. Key in url http://localhost:3000
 10. Log into the metamask and refresh the browser page if necessary.
