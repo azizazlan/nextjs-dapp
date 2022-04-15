@@ -29,12 +29,12 @@ The Next.js based frontend can interacts with the Greeter.sol, a sample smart co
     PRIVATE_KEY=0123...
     NEXT_PUBLIC_CONTRACT_ADDR=0x5f...
     ```
-9. Top start the frontend app, open a new terminal, change into the `client` directory, and run:
+9. To start the frontend app, open a new terminal, change into the `client` directory of this project, and run:
     ```
     npm install
     npm run dev
     ```
-10. Open a new browsert tab or window. Key in url http://localhost:3000
-11. Log into the metamask and refresh the browser page if necessary.
+10. Open a new browser tab or window. Key in url http://localhost:3000
+11. Log into the Metamask and refresh the browser page if necessary.
 
-If you encountered "Invalid smart contract" error, make sure you "connect" the account in the Metamask. Then reset account in the Metamask (Settings > Advanced > Reset [Account](Account))
+If you encountered "Invalid smart contract" error, make sure you "connect" the account in the Metamask. Then reset account in the Metamask (Settings > Advanced > Reset Account)
