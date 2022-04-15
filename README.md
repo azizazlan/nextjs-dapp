@@ -2,7 +2,7 @@
 
 A bare bone decentralized app based on Next.js and Hardhat project.
 
-The Next.js based frontend can interacts with the Greeter.sol, a sample smart contract in the Harhdhat project.
+The Next.js based frontend can interacts with the Greeter.sol, a sample smart contract in the Hardhat project.
 
 ## [Requirements](Requirements)
 
